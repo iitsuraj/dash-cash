@@ -6,13 +6,6 @@ import Header from "../../components/Header";
 import { Layout, Text, List, Button, Icon } from "@ui-kitten/components";
 const AvatarSize = Math.round(Dimensions.get("window").width / 3);
 
-const data = [
-  { hint: "First Name", value: "Suraj Saini" },
-  { hint: "Gender", value: "Male" },
-  { hint: "Age", value: "25" },
-  { hint: "DOB", value: "Not Provided" },
-  { hint: "Email", value: "Myemail@m.m" }
-];
 const InfoList = ({ item }) => (
   <Layout style={styles.infolist}>
     <Text appearance="hint">{item.hint}</Text>
@@ -20,20 +13,26 @@ const InfoList = ({ item }) => (
   </Layout>
 );
 class ProfileScreen extends Component {
+  constructor() {
+    super();
+    this.state = {
+      data: [
+        { hint: "First Name", value: "Suraj Saini" },
+        { hint: "Gender", value: "Male" },
+        { hint: "Age", value: "25" },
+        { hint: "DOB", value: "Not Provided" },
+        { hint: "Email", value: "Myemail@m.m" }
+      ]
+    };
+  }
+  componentDidMount() {}
   static navigationOptions = ({ navigation }) => {
-    //return header with Custom View which will replace the original header
     return {
       header: <Header title="Profile" />
     };
   };
   render() {
-    const iconRef = React.createRef();
-
-    const onPress = () => {
-      iconRef.current.startAnimation();
-    };
     const renderIcon = style => <Icon {...style} name="star" />;
-
     return (
       <React.Fragment>
         <Layout style={styles.container} level="2">
@@ -56,7 +55,7 @@ class ProfileScreen extends Component {
                 />
               </Layout>
               <Layout style={{ marginBottom: 15 }}>
-                <List data={data} renderItem={InfoList} />
+                <List data={this.state.data} renderItem={InfoList} />
               </Layout>
               <Layout style={{ marginBottom: 15 }}>
                 <Layout style={styles.infolist}>
@@ -80,9 +79,7 @@ class ProfileScreen extends Component {
                 </Layout>
               </Layout>
               <Layout style={{ marginBottom: 15, marginHorizontal: 20 }}>
-                <Button icon={renderIcon} onPress={onPress}>
-                  withdraw
-                </Button>
+                <Button icon={renderIcon}>withdraw</Button>
               </Layout>
               <Layout style={{ marginBottom: 15, marginHorizontal: 20 }}>
                 <Button appearance="outline" status="danger">
