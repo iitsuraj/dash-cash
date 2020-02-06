@@ -11,3 +11,11 @@ incentives in their e-wallet. Users may use the app without opting for an insura
 wouldn't be receiving any monetary benefits, just track of their fitness level. The implementation of ML in
 terms of recommending short-term/long-term goal settings and distance to be covered based on the
 user history will lead to an all-round customer-centric experience.
+
+### TODO :
+
+- Add redux (npm install redux react-redux & remove async storage).
+- Make Pedometer more accurate.
+- Reduce app size.
+- App Reward Logic to backened.
+- Competition with friends.
