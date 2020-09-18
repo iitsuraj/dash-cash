@@ -5701,10 +5701,10 @@ react-native-branch@2.2.5:
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.2.5.tgz#4074dd63b4973e6397d9ce50e97b57c77a518e9d"
   integrity sha1-QHTdY7SXPmOX2c5Q6XtXx3pRjp0=
 
-react-native-device-info@^5.4.1:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-5.4.1.tgz#507d2cd4be98813fc0421a35731b471b86ca194d"
-  integrity sha512-eb1fadKkaCy0C6p2gozGQ6vHO+rhQBh1FTN+l7pE23McfI7EKtp6Wy7OCexHvmEe6xsxoHK93cMiCsZuyaTnMA==
+react-native-device-info@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-6.0.4.tgz#88ef9f19715186d0b016b37e738d08b990fcf9e3"
+  integrity sha512-nLwQ2yPmR0Z/msVP7vD0dZe1qzBMpzYpyY5q4/t31pPHT08bu0D5MYVr0K+MnPZMISu1UOUZpVARvfVMLZBMJg==
 
 react-native-eva-icons@1.1.0:
   version "1.1.0"
@@ -5730,11 +5730,6 @@ react-native-gesture-handler@^1.5.2:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.4"
     prop-types "^15.7.2"
-
-react-native-google-fit@^0.9.17:
-  version "0.9.17"
-  resolved "https://registry.yarnpkg.com/react-native-google-fit/-/react-native-google-fit-0.9.17.tgz#122de8cb86c5ce9f576cc29649d912238f0f479e"
-  integrity sha512-4Wvyy2VUVQ99jCKJ0i9AQ3VcOVcyoHEE66ZvD95IPT88Bvr6Ju52O5QkdQ9ykgxKUhnaEFntF6XcRyNXajol9w==
 
 react-native-maps@0.24.2:
   version "0.24.2"
