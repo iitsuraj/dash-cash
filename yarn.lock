@@ -1597,10 +1597,10 @@
   resolved "https://registry.yarnpkg.com/@eva-design/dss/-/dss-1.3.1.tgz#b9105b7df1791a89a789a1e617aa39e1066a1415"
   integrity sha512-l6ggdlkDala+uMWlNxK+unonbLwuPjUZykNwK5+XbBrdgrQkgO5c7QXWtM8E2PczWehOLKwsQX7EIf3A7nZaIA==
 
-"@eva-design/eva@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@eva-design/eva/-/eva-1.3.1.tgz#d8c3a042a0fc43dcd9d6626b330b3166d6fe27c1"
-  integrity sha512-fjY1J3hg1GeGU1YGgbGbjDTS04emFG1xEkCpoT8syouKgxk/BIH0sJ8f3lS4p0DaVtsPmWO17Kah5F1nihjwgA==
+"@eva-design/eva@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@eva-design/eva/-/eva-2.1.1.tgz#ad237ae76d63e7c474b3a0755c697490bbe5a4bc"
+  integrity sha512-WS1ykETXyq0Kxa0aFlPMBeftEtBeTDv9qEUeQ4VvbTETMc7hsZPSkPr2HudtQhFihiM72GFfwAK6GIAlF6GXdQ==
 
 "@eva-design/processor@^1.3.1":
   version "1.3.1"
@@ -5730,11 +5730,6 @@ react-native-gesture-handler@^1.5.2:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.4"
     prop-types "^15.7.2"
-
-react-native-google-fit@^0.9.17:
-  version "0.9.17"
-  resolved "https://registry.yarnpkg.com/react-native-google-fit/-/react-native-google-fit-0.9.17.tgz#122de8cb86c5ce9f576cc29649d912238f0f479e"
-  integrity sha512-4Wvyy2VUVQ99jCKJ0i9AQ3VcOVcyoHEE66ZvD95IPT88Bvr6Ju52O5QkdQ9ykgxKUhnaEFntF6XcRyNXajol9w==
 
 react-native-maps@0.24.2:
   version "0.24.2"
